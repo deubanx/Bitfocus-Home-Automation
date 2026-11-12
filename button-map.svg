@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+<rect width="720" height="760" fill="#151820"/>
+<text x="42" y="58" font-family="Arial,sans-serif" font-weight="bold" font-size="29" fill="#f7f7fb">EUBANKS COMMUNICATIONS LTD</text>
+<text x="42" y="93" font-family="Arial,sans-serif" font-size="21" fill="#b5b8c4">Meross MSL420 • Stream Deck Layout</text>
+<g font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle" font-size="23">
+<rect x="44" y="132" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="142" y="227" font-size="66" fill="#66dd9f">⏻</text>
+<text x="142" y="280" fill="#ffffff">POWER</text>
+<rect x="260" y="132" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="358" y="227" font-size="66" fill="#fbd375">☀ +</text>
+<text x="358" y="280" fill="#ffffff">BRIGHT +</text>
+<rect x="476" y="132" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="574" y="227" font-size="66" fill="#fbd375">☀ −</text>
+<text x="574" y="280" fill="#ffffff">BRIGHT −</text>
+<rect x="44" y="327" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="142" y="422" font-size="66" fill="#fc5055">●</text>
+<text x="142" y="475" fill="#ffffff">RED</text>
+<rect x="260" y="327" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="358" y="422" font-size="66" fill="#4a9dff">●</text>
+<text x="358" y="475" fill="#ffffff">BLUE</text>
+<rect x="476" y="327" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="574" y="422" font-size="66" fill="#5bde8d">●</text>
+<text x="574" y="475" fill="#ffffff">GREEN</text>
+<rect x="44" y="522" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="142" y="617" font-size="66" fill="#b4aaff">☾</text>
+<text x="142" y="670" fill="#ffffff">NIGHT</text>
+<rect x="260" y="522" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="358" y="617" font-size="66" fill="#ffbb73">☀</text>
+<text x="358" y="670" fill="#ffffff">WARM</text>
+<rect x="476" y="522" width="197" height="172" rx="22" fill="#292d38" stroke="#414552" stroke-width="3"/>
+<text x="574" y="617" font-size="66" fill="#f2f2f2">☀</text>
+<text x="574" y="670" fill="#ffffff">WHITE</text>
+</g></svg>

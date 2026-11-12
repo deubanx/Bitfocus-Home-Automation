@@ -1,0 +1,21 @@
+# Copy ONE example at a time into Home Assistant > Developer Tools > Actions (YAML mode).
+# These are examples, not a single runnable YAML document.
+# Toggle:
+# action: light.toggle
+# target:
+#   entity_id: light.meross_msl420
+#
+# Blue at 75% brightness:
+# action: light.turn_on
+# target:
+#   entity_id: light.meross_msl420
+# data:
+#   rgb_color: [0, 100, 255]
+#   brightness_pct: 75
+#
+# Brightness +10%:
+# action: light.turn_on
+# target:
+#   entity_id: light.meross_msl420
+# data:
+#   brightness_step_pct: 10

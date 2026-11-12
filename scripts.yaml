@@ -1,0 +1,113 @@
+# Merge these keys into an EXISTING scripts.yaml file.
+# Replace light.meross_msl420 throughout with your actual light entity ID.
+meross_msl420_toggle:
+  alias: Meross MSL420 Toggle
+  sequence:
+    - action: light.toggle
+      target:
+        entity_id: light.meross_msl420
+  mode: single
+
+meross_msl420_on:
+  alias: Meross MSL420 On
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+  mode: single
+
+meross_msl420_off:
+  alias: Meross MSL420 Off
+  sequence:
+    - action: light.turn_off
+      target:
+        entity_id: light.meross_msl420
+  mode: single
+
+meross_msl420_brighter:
+  alias: Meross MSL420 Brighter
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        brightness_step_pct: 10
+  mode: queued
+  max: 10
+
+meross_msl420_dimmer:
+  alias: Meross MSL420 Dimmer
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        brightness_step_pct: -10
+  mode: queued
+  max: 10
+
+meross_msl420_red:
+  alias: Meross MSL420 Red
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        rgb_color: [255, 0, 0]
+        brightness_pct: 70
+  mode: single
+
+meross_msl420_blue:
+  alias: Meross MSL420 Blue
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        rgb_color: [0, 100, 255]
+        brightness_pct: 70
+  mode: single
+
+meross_msl420_green:
+  alias: Meross MSL420 Green
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        rgb_color: [0, 255, 90]
+        brightness_pct: 70
+  mode: single
+
+meross_msl420_warm:
+  alias: Meross MSL420 Warm
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        rgb_color: [255, 180, 105]
+        brightness_pct: 65
+  mode: single
+
+meross_msl420_white:
+  alias: Meross MSL420 White
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        rgb_color: [255, 255, 255]
+        brightness_pct: 85
+  mode: single
+
+meross_msl420_night:
+  alias: Meross MSL420 Night
+  sequence:
+    - action: light.turn_on
+      target:
+        entity_id: light.meross_msl420
+      data:
+        rgb_color: [255, 90, 20]
+        brightness_pct: 10
+  mode: single
